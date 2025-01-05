@@ -1,8 +1,8 @@
-<?php 
-$servername = "localhost";
+<?php
+$servername = "kazbek.liara.cloud";
 $username = "root";
-$password = "";
+$password = "nwBPeLP4FtUm8nFk9oRdOLQa";
 $dbname = "cms_db";
 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-mysqli_set_charset($conn,"utf8");
+$conn = mysqli_connect($servername, $username, $password, $dbname, 31616);
+mysqli_set_charset($conn, "utf8");
